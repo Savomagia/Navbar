@@ -13,6 +13,24 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: #ea895f;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 30rem;
+}
+
+button {
+  padding: .2rem .4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 .navbar__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,5 +38,22 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2vw;
+}
+
+.navbar .searchContainer {
+  background-color: white;
+  height: 3.5rem;
+  border-radius: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 .5rem;
 }
 /*# sourceMappingURL=styles.css.map */

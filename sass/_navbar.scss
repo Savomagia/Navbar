@@ -3,5 +3,16 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding: 0 2vw;
+    }
+
+    .searchContainer {
+        background-color: rgb(255, 255, 255);
+        height: 3.5rem;
+        border-radius: 30rem;
+        display: flex;
+        align-items: center;
+        padding: 0 .5rem;
     }
 }
