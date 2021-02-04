@@ -58,6 +58,12 @@ a {
   padding: 0 .5rem;
 }
 
+.navbar svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .navbar .icon-mic {
   color: red;
 }
